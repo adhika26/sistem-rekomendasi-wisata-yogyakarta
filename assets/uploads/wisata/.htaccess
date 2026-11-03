@@ -1,0 +1,5 @@
+Options -Indexes
+
+<FilesMatch "\.(?i:php|phtml|phar|pl|py|sh|cgi)$">
+    Require all denied
+</FilesMatch>
